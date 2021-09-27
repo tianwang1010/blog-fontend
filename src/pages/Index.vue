@@ -53,7 +53,7 @@
 </template>
 <page-query>
 query ($page: Int){
-	posts: allStrapiPost (perPage: 1, page: $page)  @paginate {
+	posts: allStrapiPost (perPage: 10, page: $page)  @paginate {
      pageInfo {
       totalPages
       currentPage
