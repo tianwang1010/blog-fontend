@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+              <g-link class="nav-link" to='/'>Home</g-link>
             </li>
             <li class="nav-item">
               <g-link class="nav-link" to='/about'>About</g-link>
